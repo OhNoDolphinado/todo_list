@@ -3,6 +3,7 @@
 // print list
 // bonus: add items to list, multiple at a time
 // bonus: sort items alphabetically and by length
+// bonus: add star system, sort by stars
 
 import java.util.*;
 
