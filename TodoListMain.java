@@ -6,11 +6,6 @@ public class TodoListMain {
         Scanner in = new Scanner(System.in); // intialize java.util.Scanner object
 
         TodoList list = new TodoList();
-        list.items.add("This is an example task."); // for testing
-        list.items.add("Alphabet soup is wonderful."); // for testing
-        list.items.add("password:password is a hit or miss band, but I like 'Every Single Night'."); // for testing
-        list.items.add("Zebras rule, dude."); // for testing
-        list.items.add("San Francisco is the city by the bay."); // for testing
 
         boolean exit = false;
 
@@ -36,6 +31,11 @@ public class TodoListMain {
             else if (input.equals("exit")) {
                 System.out.println("Exiting...");
                 exit = true; // quite literally, the exit condition
+            }
+            else if (input.equals("testing")) {
+                System.out.println("Adding testing items...");
+                list.starterItems(); // add some items for testing
+                list.printItems(); // print them for you to see
             }
             else {
                 System.out.println("Invalid command. Please try again.");

@@ -47,6 +47,14 @@ public class TodoList {
             System.out.println("Your list is empty!");
         }
     }
+
+    public void starterItems() {
+        items.add("Work on writing your book."); // for testing
+        items.add("Alphabetize the comic book collection. Don't forget to go by author!"); // for testing
+        items.add("Take out the trash."); // for testing
+        items.add("Zoo -- new Zebra exhibit."); // for testing
+        items.add("Book tickets to see Mother Mother."); // for testing
+    }
     
 }
 
