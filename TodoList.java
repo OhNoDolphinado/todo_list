@@ -59,6 +59,7 @@ public class TodoList {
 }
 
 // comparators below, for sortList():
+// im gonna be honest i dont know if my comments are correct but it works so /shrug
 
 class AtoZ implements Comparator<String>{
     public int compare(String first, String second) {
